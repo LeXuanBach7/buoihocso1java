@@ -8,5 +8,6 @@ public class ngayhomnay {
         System.out.println("Tên:"+ten);
         System.out.println("name:"+tuoi);
         System.out.println("chieucao:"+chieucao+"cm");
+        System.out.println("Hello world");
     }
 }
