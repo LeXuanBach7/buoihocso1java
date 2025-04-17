@@ -4,13 +4,12 @@ public class tenvatuoi {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Nhập tên và tuổi từ bàn phím
         System.out.print("Nhập tên của bạn: ");
         String ten = scanner.nextLine();
         System.out.print("Nhập năm sinh của bạn: ");
         int nam = scanner.nextInt();
-        int namHienTai = 2023; // Năm hiện tại
-        int tuoi = namHienTai - nam; // Tính tuổi
+        int namHienTai = 2025;
+        int tuoi = namHienTai - nam;
         if (tuoi <16) {
             System.out.println("Bạn"+ten+"ở độ tuổi vị thành niên");
         } else if (tuoi >= 16 && tuoi < 18) {
