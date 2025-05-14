@@ -1,3 +1,4 @@
+package BaiTapGithub;
 import java.util.Scanner;
 public class Baithuchanh1204 {
     static class Student {
